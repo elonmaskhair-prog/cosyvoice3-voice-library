@@ -1,0 +1,26 @@
+{
+  "CosyVoice-BlankEN/model.safetensors": {
+    "size": 988097824,
+    "sha256": "130282af0dfa9fe5840737cc49a0d339d06075f83c5a315c3372c9a0740d0b96"
+  },
+  "campplus.onnx": {
+    "size": 28303423,
+    "sha256": "a6ac6a63997761ae2997373e2ee1c47040854b4b759ea41ec48e4e42df0f4d73"
+  },
+  "flow.pt": {
+    "size": 1329116148,
+    "sha256": "a6fab32a7825e5b0bc855ddd948f8db9370b0a786fbc249caa4595e95b608e4b"
+  },
+  "hift.pt": {
+    "size": 83202622,
+    "sha256": "b279d7641eb97ae55b3b540cfba4f953c26492a2df758328a89a4d007ab87a65"
+  },
+  "llm.pt": {
+    "size": 2024669519,
+    "sha256": "69f43bd545131c30e98947fb360ea8b4dc9916d8e83dded7757c7ea4f5a24970"
+  },
+  "speech_tokenizer_v3.onnx": {
+    "size": 969451503,
+    "sha256": "23236a74175dbdda47afc66dbadd5bcb41303c467a57c261cb8539ad9db9208d"
+  }
+}

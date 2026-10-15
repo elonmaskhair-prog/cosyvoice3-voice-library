@@ -1,0 +1,44 @@
+{
+  "profile_id": "my-voice-v1",
+  "source": "recordings/raw/session-01.m4a",
+  "decoded_audio": "outputs/session-01-original-mono.wav",
+  "asr": "recordings/analysis/session-01-asr.json",
+  "references": [
+    {
+      "id": "zh-01",
+      "language": "Chinese",
+      "start": 1.73,
+      "end": 9.74,
+      "text": "早上出门前，我把钥匙、耳机和水杯放进背包，又回头看了一眼桌上的清单。",
+      "script_id": "ZH101",
+      "role": "default"
+    },
+    {
+      "id": "zh-02",
+      "language": "Chinese",
+      "start": 310.04,
+      "end": 317.26,
+      "text": "这一轮尝试完成以后，我们已经有了可以比较的结果，也知道接下来要改进什么。",
+      "script_id": "ZH112",
+      "role": "alternative"
+    },
+    {
+      "id": "en-01",
+      "language": "English",
+      "start": 340.68,
+      "end": 349.3,
+      "text": "Hello and welcome back. Today I want to share a practical idea and show you how it works step by step.",
+      "script_id": "EN001",
+      "role": "default"
+    },
+    {
+      "id": "en-02",
+      "language": "English",
+      "start": 349.82,
+      "end": 358.22,
+      "text": "Before we move on, let's take a closer look at this detail. A small change can make the whole process easier.",
+      "script_id": "EN002",
+      "role": "alternative"
+    }
+  ]
+}

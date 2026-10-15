@@ -1,0 +1,30 @@
+{
+  "engine": "cosy",
+  "model": {
+    "repository": "https://github.com/QwenAudio/CosyVoice",
+    "commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+    "matcha_commit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+    "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "directory": "models/Fun-CosyVoice3-0.5B-2512",
+    "license": "Apache-2.0",
+    "ignore_patterns": [
+      "llm.rl.pt",
+      "flow.decoder.estimator.fp32.onnx",
+      "speech_tokenizer_v3.batch.onnx",
+      "asset/*"
+    ]
+  },
+  "reference": "voices/my-voice-v1/references/zh-01.wav",
+  "reference_sha256": "51fa456047d72aa106da952904e699542166c1dc16e65b593800c47b655d181d",
+  "reference_text": "早上出门前，我把钥匙、耳机和水杯放进背包，又回头看了一眼桌上的清单。",
+  "voice_file": "voices/my-voice-v1/cosy/zh-01.pt",
+  "voice_file_sha256": "28779d64fcad322c479f3b1c47213a67f7eac877cbc5e5b26ca2c100e6930e02",
+  "text": "今天，我想分享一个整理视频素材的小方法。先把画面、音乐和旁白分别归档，再按照故事的顺序安排内容。准备工作做好以后，剪辑会轻松很多，也更容易保留自己的表达风格。",
+  "language": "Chinese",
+  "seed": 42,
+  "sample_rate": 24000,
+  "duration_seconds": 16.4,
+  "generation_seconds": 7.347,
+  "output": "examples/cosy-zh.wav"
+}

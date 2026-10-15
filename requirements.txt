@@ -1,0 +1,32 @@
+# Local inference environment for Windows / RTX 50 series / Python 3.12.
+# The upstream requirements pin CUDA 12.1 / torch 2.3, which predates this GPU.
+# Training, TensorRT, DeepSpeed, and server-only dependencies are not included.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+torchaudio==2.8.0+cu128
+conformer==0.3.2
+diffusers==0.29.0
+gdown==5.1.0
+gradio>=5.49,<6
+hydra-core==1.3.2
+HyperPyYAML==1.2.3
+inflect==7.3.1
+librosa==0.10.2
+lightning==2.2.4
+matplotlib>=3.8,<4
+modelscope==1.20.0
+networkx==3.1
+numpy==1.26.4
+omegaconf==2.3.0
+onnxruntime-gpu==1.23.2
+openai-whisper==20250625
+pyarrow==18.1.0
+pyworld==0.3.5
+rich==13.7.1
+soundfile==0.12.1
+transformers==4.51.3
+x-transformers==2.11.24
+# Bundles normalization FSTs locally; 0.0.4 attempts a ModelScope download at startup.
+wetext==0.1.8
+wget==3.2
+setuptools<81

@@ -1,0 +1,12 @@
+.venv/
+third_party/
+models/
+outputs/
+downloads/
+dist/
+logs/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

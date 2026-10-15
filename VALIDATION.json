@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "source": "publication repository code and published prompt files",
+  "checks": [
+    {
+      "language": "zh",
+      "duration_seconds": 16.4,
+      "sample_rate": 24000,
+      "script": "今天，我想分享一个整理视频素材的小方法。先把画面、音乐和旁白分别归档，再按照故事的顺序安排内容。准备工作做好以后，剪辑会轻松很多，也更容易保留自己的表达风格。",
+      "recognized_text": "今天我想分享一个整理视频素材的小方法先把画面、音乐和旁白分别归档再按照故事的顺序安排内容准备工作做好以后剪辑会轻松很多也更容易保留自己的表达风格",
+      "normalized_transcript_match": true
+    },
+    {
+      "language": "en",
+      "duration_seconds": 16.52,
+      "sample_rate": 24000,
+      "script": "Today, I want to share a simple way to organize a video project. Keep your pictures, music, and narration in separate folders. A clear plan helps you focus on the story and makes the editing process easier.",
+      "recognized_text": "Today, I want to share a simple way to organize a video project. Keep your pictures, music, and narration in separate folders. A clear plan helps you focus on the story and makes the editing process easier.",
+      "normalized_transcript_match": true
+    }
+  ],
+  "http_ok": true,
+  "api_names": [
+    "generate"
+  ],
+  "result": "passed"
+}

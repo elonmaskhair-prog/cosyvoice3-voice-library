@@ -1,0 +1,31 @@
+{
+  "description": "为个人视频旁白原创的手机朗读稿；正文需与实际录音一致。core_zh 每条录两遍，其他部分可选。",
+  "items": [
+    {"id":"ZH001","group":"core_zh","language":"zh","style":"自然讲解","text":"大家好，今天想和你分享一个实用的方法，我们从最容易上手的地方开始。"},
+    {"id":"ZH002","group":"core_zh","language":"zh","style":"自然讲解","text":"先别急着下结论，让我们把过程看清楚，再一起比较这两种做法的区别。"},
+    {"id":"ZH003","group":"core_zh","language":"zh","style":"清晰说明","text":"这段视频会分成三个部分，先介绍原理，再演示步骤，最后看看实际效果。"},
+    {"id":"ZH004","group":"core_zh","language":"zh","style":"温和安慰","text":"如果第一次没有成功，也不用着急，检查一下设置，然后重新试一次就好。"},
+    {"id":"ZH005","group":"core_zh","language":"zh","style":"轻微强调","text":"接下来请注意这个细节，它看起来不起眼，却会直接影响最后的体验。"},
+    {"id":"ZH006","group":"core_zh","language":"zh","style":"自然收尾","text":"好了，今天的内容就到这里，希望这些经验能帮你节省时间，我们下次再见。"},
+    {"id":"ZH007","group":"core_zh","language":"zh","style":"轻快欣喜","text":"没想到，这个小小的调整，真的让画面清楚了很多，连声音也变得更自然了。"},
+    {"id":"ZH008","group":"core_zh","language":"zh","style":"平静叙述","text":"傍晚的风慢慢吹过窗边，我把桌上的东西收好，准备结束今天的工作。"},
+    {"id":"ZH101","group":"extended_zh","language":"zh","style":"日常分享","text":"早上出门前，我把钥匙、耳机和水杯放进背包，又回头看了一眼桌上的清单。今天要办的事情并不算多，但每一件都需要留出一点时间。我习惯先处理最重要的工作，再安排那些可以顺手完成的小事。这样到了晚上，回顾一天的进展时，就能清楚地知道，哪些事情已经做好，哪些还可以慢慢改进。"},
+    {"id":"ZH102","group":"extended_zh","language":"zh","style":"教程讲解","text":"我们先打开设置页面，找到声音选项，再检查输入设备是否正确。接着说一句平时会说的话，观察旁边的音量指示有没有变化。如果指示一直停在最低处，可以先检查连接，再看看应用有没有获得使用麦克风的权限。每次只调整一个选项，然后重新测试，这样更容易发现，究竟是哪一步影响了结果。"},
+    {"id":"ZH103","group":"extended_zh","language":"zh","style":"产品体验","text":"拿到这件东西的时候，我最先注意到的是它的重量。放在桌上看着不大，真正拿在手里，却能感觉到材料和结构的差别。按钮的位置比较顺手，边缘也没有明显的尖角。不过，外观只是第一印象。接下来我会把它放进日常使用的场景里，看看长时间操作是否舒服，收纳和清洁又会不会带来额外的麻烦。"},
+    {"id":"ZH104","group":"extended_zh","language":"zh","style":"数字与时间","text":"这次测试一共安排了三轮，每轮持续十五分钟，中间休息五分钟。第一轮从上午九点半开始，第二轮在九点五十分进行。我们记录了二十四个样本，其中十八个符合预期，剩下六个需要重新检查。屏幕上显示的完成比例是百分之七十五。这里的数字只是用来说明记录方法，真正判断效果时，还要结合每一条样本的具体情况。"},
+    {"id":"ZH105","group":"extended_zh","language":"zh","style":"对比说明","text":"这两种做法都有自己的适用范围。第一种准备起来比较简单，适合先做一个小规模的尝试；第二种需要更多设置，但可以保留细节，方便以后重复使用。选择之前，我会先想清楚三个问题：这件事多久做一次？结果需要保持多高的一致性？如果以后换了设备，已有的资料还能不能继续使用？把这些问题说明白，选择往往就容易多了。"},
+    {"id":"ZH106","group":"extended_zh","language":"zh","style":"问答与停顿","text":"有人问我，为什么要把一个完整的过程拆成几个小步骤？原因很简单，因为我们需要知道每一步到底做了什么。文件已经保存了吗？声音是否清楚？画面和字幕有没有对齐？这些问题看起来细小，却能帮助我们定位问题。等每个部分都稳定下来，再把它们连成一个完整的流程，后面的修改就会轻松很多。"},
+    {"id":"ZH107","group":"extended_zh","language":"zh","style":"轻快分享","text":"最让我开心的，是原本以为很复杂的事情，终于有了一个清楚的开始。昨天还需要反复查找的文件，今天已经整理到了同一个地方；之前总会漏掉的小步骤，也变成了一张可以逐项核对的清单。变化并不突然，但每次少花一点时间，累积起来就很可观。这样的进展，让我愿意继续试下去，也愿意把过程分享给你。"},
+    {"id":"ZH108","group":"extended_zh","language":"zh","style":"平静故事","text":"午后的雨下得很轻，窗外的树叶被洗得发亮。我给自己倒了一杯温水，坐在桌边，重新听了一遍上午录好的声音。有几句话说得太快，有一处停顿显得生硬，还有一段背景里混进了开门的声音。我把这些地方记下来，没有急着全部重做，而是先挑出最自然的一段，留作下一次比较时的参考。"},
+    {"id":"ZH109","group":"extended_zh","language":"zh","style":"发音覆盖","text":"周末，我们沿着清静的小路走到城北。桥边有几株青松，树下摆着一张长椅，远处传来商店开门的声音。朋友说，山上的晨雾刚刚散去，站在高处能看见整片树林。我想了想，决定先到附近吃点东西，再带上一瓶温水慢慢往前走。天气不冷，也不热，正适合把平时匆忙错过的风景，认真看一遍。"},
+    {"id":"ZH110","group":"extended_zh","language":"zh","style":"提醒与重音","text":"这里有一个容易忽略的细节：修改之前，先保存一份原始文件。原始素材和处理后的版本要放在不同的位置，文件名里也最好写清楚日期和用途。这样，当你想重新剪辑、调整音量，或者尝试另一种处理方式时，就能回到清楚的起点。稍微多做一点整理，通常比事后寻找丢失的版本省力得多。"},
+    {"id":"ZH111","group":"extended_zh","language":"zh","style":"视频旁白","text":"镜头先从桌面的全景开始，接着慢慢靠近正在操作的双手。讲到关键步骤时，画面停留一会儿，让观众看清按钮和文字。如果这一段信息比较多，可以留出短暂的停顿，再切换到下一张画面。旁白的作用，是把观众的注意力引到正在发生的事情上。说话的速度、镜头的节奏和字幕出现的时机，需要放在一起考虑。"},
+    {"id":"ZH112","group":"extended_zh","language":"zh","style":"总结与邀请","text":"这一轮尝试完成以后，我们已经有了可以比较的结果，也知道接下来要改进什么。你可以先选一个最常用的场景，把整个过程完整地做一遍，再根据自己的习惯调整顺序。遇到新的问题，就把当时的条件和现象记录下来。下次回来看这些记录，你会发现，很多看似零散的经验，已经逐渐连成了一套适合自己的方法。"},
+    {"id":"EN001","group":"optional_en","language":"en","style":"Natural introduction; short reference","text":"Hello, and welcome back. Today, I want to share a practical idea and show you how it works, step by step."},
+    {"id":"EN002","group":"optional_en","language":"en","style":"Calm explanation; short reference","text":"Before we move on, let's take a closer look at this detail. A small change can make the whole process easier."},
+    {"id":"EN003","group":"optional_en","language":"en","style":"Friendly encouragement; short reference","text":"If it doesn't work the first time, that's okay. Check the settings, take a short break, and give it another try."},
+    {"id":"EN004","group":"optional_en","language":"en","style":"Natural closing; short reference","text":"That's all for today. I hope this example helps you save some time and feel more confident about your next project."},
+    {"id":"EN101","group":"optional_en","language":"en","style":"Longer explanation; optional source material","text":"When I start a new project, I usually begin with a small example. I choose one clear goal, prepare the files I need, and write down the steps as I go. This makes it easier to notice what is working and what needs another look. Once the example is ready, I can repeat the same process with more material. The important thing is to keep the original files and make changes in a way that I can understand later."},
+    {"id":"EN102","group":"optional_en","language":"en","style":"Longer narration; optional source material","text":"The room was quiet when I played the recording again. This time, I listened to the pauses between the sentences and the way my voice changed at the end of each thought. A few lines sounded natural, while others felt a little rushed. I kept the best parts, made a short note about the rest, and decided to record again the following morning. With a fresh start and a simple plan, the next version would be easier to improve."}
+  ]
+}

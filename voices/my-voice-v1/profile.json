@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "profile_id": "my-voice-v1",
+  "created_at": "2026-10-15T12:14:16.685281+00:00",
+  "owner": "elonmaskhair-prog",
+  "source": {
+    "path": "recordings/raw/session-01.m4a",
+    "sha256": "de3fb9231d873e559c825663c7bbf17c0b5a6e694b5ffa943c9668b6565aa921",
+    "duration_seconds": 426.24,
+    "local_asr": "recordings/analysis/session-01-asr.json"
+  },
+  "processing": "FFmpeg mono decode, selected intervals, PCM16 WAV; no denoising, pitch change or time stretch.",
+  "default_references": {
+    "Chinese": "zh-01",
+    "English": "en-01"
+  },
+  "references": [
+    {
+      "id": "zh-01",
+      "language": "Chinese",
+      "start": 1.73,
+      "end": 9.74,
+      "text": "早上出门前，我把钥匙、耳机和水杯放进背包，又回头看了一眼桌上的清单。",
+      "script_id": "ZH101",
+      "role": "default",
+      "audio": "references/zh-01.wav",
+      "transcript": "references/zh-01.txt",
+      "sha256": "51fa456047d72aa106da952904e699542166c1dc16e65b593800c47b655d181d",
+      "duration_seconds": 8.01,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_dbfs": -3.25,
+      "rms_dbfs": -19.83,
+      "clipped_samples": 0,
+      "selection_basis": "Complete sentence; matches full-recording local ASR and original script; low-energy cut boundaries. Human listening still recommended."
+    },
+    {
+      "id": "zh-02",
+      "language": "Chinese",
+      "start": 310.04,
+      "end": 317.26,
+      "text": "这一轮尝试完成以后，我们已经有了可以比较的结果，也知道接下来要改进什么。",
+      "script_id": "ZH112",
+      "role": "alternative",
+      "audio": "references/zh-02.wav",
+      "transcript": "references/zh-02.txt",
+      "sha256": "dfc41f58ad9066200f3ad389cb3fdd8318cace0f22325e01ea4a17c579f5c8ca",
+      "duration_seconds": 7.22,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_dbfs": -4.61,
+      "rms_dbfs": -20.64,
+      "clipped_samples": 0,
+      "selection_basis": "Complete sentence; matches full-recording local ASR and original script; low-energy cut boundaries. Human listening still recommended."
+    },
+    {
+      "id": "en-01",
+      "language": "English",
+      "start": 340.68,
+      "end": 349.3,
+      "text": "Hello and welcome back. Today I want to share a practical idea and show you how it works step by step.",
+      "script_id": "EN001",
+      "role": "default",
+      "audio": "references/en-01.wav",
+      "transcript": "references/en-01.txt",
+      "sha256": "c4edd9500c013b4e5c4c6dff9903773f5165e624608fcd2cd9a1406289b8fb4a",
+      "duration_seconds": 8.62,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_dbfs": -4.53,
+      "rms_dbfs": -22.29,
+      "clipped_samples": 0,
+      "selection_basis": "Complete sentence; matches full-recording local ASR and original script; low-energy cut boundaries. Human listening still recommended."
+    },
+    {
+      "id": "en-02",
+      "language": "English",
+      "start": 349.82,
+      "end": 358.22,
+      "text": "Before we move on, let's take a closer look at this detail. A small change can make the whole process easier.",
+      "script_id": "EN002",
+      "role": "alternative",
+      "audio": "references/en-02.wav",
+      "transcript": "references/en-02.txt",
+      "sha256": "340bfbef36ad8717bd5db1f5ca558aa5c1c4b12814d98c7d761b7078fc8a0e62",
+      "duration_seconds": 8.4,
+      "sample_rate": 48000,
+      "channels": 1,
+      "peak_dbfs": -3.12,
+      "rms_dbfs": -22.46,
+      "clipped_samples": 0,
+      "selection_basis": "Complete sentence; matches full-recording local ASR and original script; low-energy cut boundaries. Human listening still recommended."
+    }
+  ],
+  "engine_artifacts": {
+    "cosy": {
+      "zh-01": {
+        "file": "cosy/zh-01.pt",
+        "sha256": "28779d64fcad322c479f3b1c47213a67f7eac877cbc5e5b26ca2c100e6930e02",
+        "speaker_id": "my-voice-v1-zh-01",
+        "model": {
+          "repository": "https://github.com/QwenAudio/CosyVoice",
+          "commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+          "matcha_commit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+          "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+          "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+          "directory": "models/Fun-CosyVoice3-0.5B-2512",
+          "license": "Apache-2.0",
+          "ignore_patterns": [
+            "llm.rl.pt",
+            "flow.decoder.estimator.fp32.onnx",
+            "speech_tokenizer_v3.batch.onnx",
+            "asset/*"
+          ]
+        }
+      },
+      "zh-02": {
+        "file": "cosy/zh-02.pt",
+        "sha256": "caa50884be60b9cc71d4ce066e04834bb93951398fd54a67a9465dec37a9e724",
+        "speaker_id": "my-voice-v1-zh-02",
+        "model": {
+          "repository": "https://github.com/QwenAudio/CosyVoice",
+          "commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+          "matcha_commit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+          "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+          "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+          "directory": "models/Fun-CosyVoice3-0.5B-2512",
+          "license": "Apache-2.0",
+          "ignore_patterns": [
+            "llm.rl.pt",
+            "flow.decoder.estimator.fp32.onnx",
+            "speech_tokenizer_v3.batch.onnx",
+            "asset/*"
+          ]
+        }
+      },
+      "en-01": {
+        "file": "cosy/en-01.pt",
+        "sha256": "b09cabfc16b3865160bd38c1cb7530a53ce39325d9633cbc42441d7d4ed6085b",
+        "speaker_id": "my-voice-v1-en-01",
+        "model": {
+          "repository": "https://github.com/QwenAudio/CosyVoice",
+          "commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+          "matcha_commit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+          "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+          "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+          "directory": "models/Fun-CosyVoice3-0.5B-2512",
+          "license": "Apache-2.0",
+          "ignore_patterns": [
+            "llm.rl.pt",
+            "flow.decoder.estimator.fp32.onnx",
+            "speech_tokenizer_v3.batch.onnx",
+            "asset/*"
+          ]
+        }
+      },
+      "en-02": {
+        "file": "cosy/en-02.pt",
+        "sha256": "dfb0e30ecbe7e0e6c50e2d130d8d87d997d325a8c7513f736defc15cbb18d97a",
+        "speaker_id": "my-voice-v1-en-02",
+        "model": {
+          "repository": "https://github.com/QwenAudio/CosyVoice",
+          "commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+          "matcha_commit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+          "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+          "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+          "directory": "models/Fun-CosyVoice3-0.5B-2512",
+          "license": "Apache-2.0",
+          "ignore_patterns": [
+            "llm.rl.pt",
+            "flow.decoder.estimator.fp32.onnx",
+            "speech_tokenizer_v3.batch.onnx",
+            "asset/*"
+          ]
+        }
+      }
+    }
+  },
+  "note": "Reusable reference/prompt package, not a fine-tuned standalone model. Matching base models are required.",
+  "license": "CC0-1.0",
+  "speaker_permission": "../../VOICE_LICENSE.md"
+}

@@ -1,0 +1,30 @@
+{
+  "engine": "cosy",
+  "model": {
+    "repository": "https://github.com/QwenAudio/CosyVoice",
+    "commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+    "matcha_commit": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+    "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "directory": "models/Fun-CosyVoice3-0.5B-2512",
+    "license": "Apache-2.0",
+    "ignore_patterns": [
+      "llm.rl.pt",
+      "flow.decoder.estimator.fp32.onnx",
+      "speech_tokenizer_v3.batch.onnx",
+      "asset/*"
+    ]
+  },
+  "reference": "voices/my-voice-v1/references/en-01.wav",
+  "reference_sha256": "c4edd9500c013b4e5c4c6dff9903773f5165e624608fcd2cd9a1406289b8fb4a",
+  "reference_text": "Hello and welcome back. Today I want to share a practical idea and show you how it works step by step.",
+  "voice_file": "voices/my-voice-v1/cosy/en-01.pt",
+  "voice_file_sha256": "b09cabfc16b3865160bd38c1cb7530a53ce39325d9633cbc42441d7d4ed6085b",
+  "text": "Today, I want to share a simple way to organize a video project. Keep your pictures, music, and narration in separate folders. A clear plan helps you focus on the story and makes the editing process easier.",
+  "language": "English",
+  "seed": 42,
+  "sample_rate": 24000,
+  "duration_seconds": 16.52,
+  "generation_seconds": 7.212,
+  "output": "examples/cosy-en.wav"
+}

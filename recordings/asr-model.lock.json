@@ -1,0 +1,8 @@
+{
+  "name": "large-v3-turbo",
+  "source": "https://raw.githubusercontent.com/openai/whisper/main/whisper/__init__.py",
+  "url": "https://openaipublic.azureedge.net/main/whisper/models/aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a/large-v3-turbo.pt",
+  "size": 1617941637,
+  "sha256": "aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a",
+  "directory": "models/whisper/large-v3-turbo.pt"
+}
